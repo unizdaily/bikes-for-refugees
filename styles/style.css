@@ -120,7 +120,7 @@ p {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
+  background-image: url("../images/header-bike.jpg");
   background-color: var(--grey-light);
 }
 
@@ -182,8 +182,10 @@ p {
 }
 
 .article__thumbnail {
-  object-fit: contain;
-  width: 5rem;
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4px;
 }
 
 .article__read-more {
