@@ -76,6 +76,11 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--orange-dark);
+}
+
 
 /* Text styles */
 
@@ -107,6 +112,18 @@ p {
   background-color: var(--orange-dark);
   border-color: var(--orange-dark);
   color: var(--white);
+}
+
+.btn--primary:hover {
+  background-color: var(--white);
+  color: var(--orange-dark);
+  border-color: var(--orange-dark);
+}
+
+.btn--outline:hover {
+  background-color: var(--white);
+  color: var(--orange-dark);
+  border-color: var(--white);
 }
 
 .btn--outline {
