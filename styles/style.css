@@ -265,6 +265,14 @@ p {
   min-width: 350px;
 }
 
+.sidebar .article {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid var(--grey-light);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
 /* Footer */
 
 .footer {
