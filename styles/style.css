@@ -236,6 +236,18 @@ p {
   text-decoration: underline;
 }
 
+.article-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.main .article {
+  border: 1px solid var(--grey-light);
+  border-radius: 4px;
+  padding: 1.5rem;
+}
+
 .fa {
   margin-right: 0.5rem;
   color: var(--orange-dark);
